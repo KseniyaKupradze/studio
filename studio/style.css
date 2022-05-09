@@ -1,0 +1,333 @@
+/*reset*/
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    }/* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+	content: '';
+	content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+
+
+
+.wrapper{
+    max-width: 1200px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+ul {
+     list-style: none; 
+     }
+a{
+    text-decoration: none;
+    color: black;
+}
+/*top_menue*/
+.logo{
+    font-size: 27px;
+    margin-top: 42px;
+    font-family: 'Proxima Nova';
+}
+.menu{
+    margin-top: 49px;
+    margin-left: 375px;
+    font-family: 'Avrta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+ .menu ul li{
+    margin-right: 60px;
+ }
+
+ /*hero_headline*/
+       .hero_headline{
+                margin-top: 47px;
+            }
+            .headline_article{
+                margin-right: 104px;
+            }
+        .headline_article h2{
+            margin-top: 163px;
+            font-family: 'Averta Demo PE Cutted Demo';
+            font-size: 30px;
+            }
+            .headline_article p{
+                margin-top: 40px;
+                    color: #565656;
+                    font-size: 16px;
+                }
+                    .headline_article button{
+                font-size: 20px;
+                color: white;
+                margin-top: 33px; 
+                width: 215px;
+                height: 65px;
+                background-color: #2639ED;
+                border-radius: 60px;  
+                }
+
+            .headline_img{
+            background-image: url(img/image\ 8.png);
+            min-height: 512px;
+            min-width: 754px;
+                }
+
+/*client*/
+.client_about h3 {
+    margin-top: 136px;
+    font-size: 40px;
+}
+.client_about p{
+    font-family: 'Averta Demo PE Cutted Demo';
+    margin-top: 17px;
+    font-size: 18px;
+    color: #757575;
+    max-width: 340px;
+}
+.client_bar{
+margin-top: 180px;
+
+}
+.client_bar ul li{
+    margin-left: 30px;
+    
+}
+
+/*help*/
+.help {
+margin-top: 250px;
+
+min-height: 619px;
+
+}
+.help_about{
+max-width: 340px;
+    position: absolute;
+}
+.help_about h3{
+    margin-top: 80px;
+    font-size: 48px;
+}
+    .help_about h3:before{
+        content: "";
+        display: block;
+        width: 170px;
+        height: 170px;
+        background:url(img/Rectangle\ 25.png) no-repeat;
+        opacity: 0.8;
+        margin:10px 10px 10px 10px;
+        
+    }
+.help_about p{
+    margin-top: 30px;
+    color: #565656;
+    font-size: 16px;
+}
+    .help_about p::after{
+        content: "";
+        display: block;
+        width: 170px;
+        height: 170px;
+        background:url(img/Group\ 70.png) no-repeat;
+        opacity: 0.8;
+        margin:50px 0px 0px 50px;
+        
+    }
+ .help_bar{
+    background: url(img/Rectangle\ 24.png) no-repeat right;
+        min-width: 1200px;
+
+ }
+
+.h_bar1{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 340px;
+}
+.h_bar2{
+    position:absolute;
+    margin-top: 330px;
+    margin-left: 340px
+}
+.h_bar3{
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 680px
+}
+.h_bar4{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 680px
+}
+
+/*digital_product*/
+.digital_product{
+
+}
+.product_link{
+    margin-top: 180px;
+}
+  .product_link:after{
+        content: "";
+        position: absolute;
+        display: block;
+        width: 78px;
+        height: 78px;
+        background :url(img/Vector.png) no-repeat;
+            margin: -300px 280px;
+    
+    }  
+.product_text{
+    position: absolute;
+       margin-top: -350px;
+    margin-left: 680px;
+}
+.product_text h3{
+
+ font-size: 40px;
+ max-width: 500px;
+}
+.product_text p{
+ margin-top: 30px;
+ font-size: 16px;
+ color: #565656;
+ max-width: 530px;
+}
+
+/*client*/
+.cl_h{
+margin-top: 180px;
+font-size: 40px;
+text-align: center;
+
+}
+.cl_p{
+margin-top: 30px;
+font-size: 16px;
+color: #565656;
+text-align: center;
+}
+.client_say{
+    margin-right:38px ;
+    margin-top: 197px;
+    max-width: 410px;}
+.client_say h4{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.client_img1{
+margin-top: 112px;
+}
+.client_img2{
+margin-top: 112px;
+}
+
+.slide{
+        position:absolute;
+        display: flex;
+        margin-top: 50px;
+        margin-left: 65px
+    }
+    .slide li{
+        border-radius: 50%;
+        margin:8px; 
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-color: #E7F0FC ;}
+
+        /*newsletter*/
+
+     .newsletter{
+        min-height: 240px;
+        min-width: 270px;
+        background: #F4F9FF;
+        border-radius: 75px;
+        display: flex;
+     }  
+
+       .newsletter_text{
+      position:absolute ;
+      color: black;
+      margin-top: 98px;
+      margin-left: 92px;
+      font-size: 40px;
+      }
+      .letter{
+        position: absolute;
+      }
+      .news_fon{
+      background: #2639ED  ; 
+      width:545px;
+      border-radius: 25% 20% 20% 30%;
+      margin-left: 654px;  }
+
+      .letter{
+        margin-top: 80px;
+        margin-left: 700px;
+        height: 80px;
+        border-radius: 75px;
+        width: 400px;
+      }
+      .news_btn{
+       position:absolute ;
+       margin-top: 100px;
+        margin-left: 900px;
+        width: 200px;
+        height: 50px;
+        border-radius: 75px;
+        background-color: blue;
+        border: none;
+        color: white;
+        cursor: pointer;
+      }
+
+      /*footer*/
+
+      .footer{
+       margin-top:280px ; 
+       display: flex;
+      }
+      .footer li{
+        margin-bottom: 10px;
+        min-width: 150px;
+        cursor: pointer;
+      }
